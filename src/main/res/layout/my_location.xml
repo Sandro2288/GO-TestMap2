@@ -42,11 +42,27 @@
             android:inputType="textPersonName"
             android:textAlignment="center" />
 
-        <Button
-            android:id="@+id/cm"
-            android:layout_width="match_parent"
+        <RelativeLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Clear Marker" />
+            android:layout_gravity="bottom" >
+
+            <Button
+                android:id="@+id/cm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Clear Map" />
+
+            <Button
+                android:id="@+id/cm1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Clear Marker" />
+
+        </RelativeLayout>
+
 
     </LinearLayout>
 
